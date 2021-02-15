@@ -357,6 +357,17 @@ body {
   margin-bottom: 10px;
 }
 
+.white-section h5{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #38b2aa;
+  font-size: 13px;
+}
+
+.white-section a{
+  color: #247A7B;
+  font-size: 12px;
+}
 .white-section p {
   font-size: 13px;
   line-height: 18px;
@@ -368,7 +379,7 @@ body {
 
 .white-section-image {
   width: 90%;
-  vertical-align: middle;
+  margin-top:0px;
 }
 
 .white-section i {
@@ -385,6 +396,8 @@ body {
     width: 90%;
     display: block;
     margin: auto;
+    margin-top:0px;
+
   }
   .white-section {
     width: 100%;
