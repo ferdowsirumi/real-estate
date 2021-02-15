@@ -433,16 +433,6 @@ body {
   z-index: -1;
 }
 
-.top-text {
-  text-align: center;
-  font-size: 13px;
-  line-height: 18px;
-  font-weight: 400;
-  color: #7c8595;
-  margin: 0px;
-  margin-bottom: 5px;
-}
-
 .top-content {
   float: left;
   width: 31.33%;
@@ -458,14 +448,6 @@ body {
   text-align: center;
   min-height: 455px;
 }
-
-.popup-gallery img {
-  position: relative;
-  z-index: 10;
-  width: 100%;
-  height: auto;
-}
-
 .top-content-image {
   width: 100%;
   height: auto;
@@ -474,9 +456,8 @@ body {
   max-height: 220px;
 }
 
-.top-context-image:hover {
+.top-content-image:hover {
   transition: transform 0.3s;
-
   opacity: 0.7;
 } 
 
@@ -528,77 +509,6 @@ body {
 
 .overlay {
   background: black;
-}
-
-/* The Modal (background) */
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  padding-top: 100px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.9);
-}
-
-.modal-content {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-}
-
-/* Add Animation */
-.modal-content {
-  -webkit-animation-name: zoom;
-  -webkit-animation-duration: 0.6s;
-  animation-name: zoom;
-  animation-duration: 0.6s;
-}
-
-@-webkit-keyframes zoom {
-  from {
-    -webkit-transform: scale(0);
-  }
-  to {
-    -webkit-transform: scale(1);
-  }
-}
-
-@keyframes zoom {
-  from {
-    transform: scale(0);
-  }
-  to {
-    transform: scale(1);
-  }
-}
-
-.close {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
-  font-size: 40px;
-  font-weight: bold;
-  transition: 0.3s;
-}
-
-.close:hover,
-.close:focus {
-  color: #bbb;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-@media only screen and (max-width: 700px) {
-  .modal-content {
-    width: 100%;
-  }
 }
 
 .footer {
