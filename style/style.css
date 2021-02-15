@@ -653,7 +653,7 @@ body {
   color: inherit;
 }
 
-.footer-distributed .footer-company-name {
+.footer-distributed {
   color: rgb(33, 131, 124);
   font-size: 14px;
   font-weight: normal;
@@ -722,7 +722,7 @@ body {
   width: 20%;
 }
 
-.footer-distributed .footer-company-about {
+.footer-distributed .footer-about-me {
   line-height: 20px;
   color: #92999f;
   font-size: 13px;
@@ -730,7 +730,7 @@ body {
   margin: 0;
 }
 
-.footer-distributed .footer-company-about span {
+.footer-distributed .footer-about-me span {
   display: block;
   color: #ffffff;
   font-size: 14px;
