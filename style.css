@@ -353,15 +353,15 @@ body {
   margin-bottom: 10px;
 }
 
-.white-section h5{
+.white-section h5 {
   margin-top: 5px;
   margin-bottom: 5px;
   color: #38b2aa;
   font-size: 13px;
 }
 
-.white-section a{
-  color: #247A7B;
+.white-section a {
+  color: #247a7b;
   font-size: 12px;
 }
 .white-section p {
@@ -375,7 +375,7 @@ body {
 
 .white-section-image {
   width: 90%;
-  margin-top:180px;
+  margin-top: 180px;
 }
 
 .white-section i {
@@ -392,8 +392,7 @@ body {
     width: 90%;
     display: block;
     margin: auto;
-    margin-top:0px;
-
+    margin-top: 0px;
   }
   .white-section {
     width: 100%;
@@ -441,7 +440,7 @@ body {
   font-size: 20px;
   margin: 0px 6px;
   margin-top: 30px;
-  padding:15px;
+  padding: 15px;
   background-color: #fff;
   box-shadow: rgba(33, 33, 33, 0.06) 0 4px 24px 5px;
   border-radius: 8px;
@@ -459,7 +458,7 @@ body {
 .top-content-image:hover {
   transition: transform 0.3s;
   opacity: 0.7;
-} 
+}
 
 .issue-box {
   text-align: center;
@@ -471,7 +470,6 @@ body {
   padding-bottom: 2px;
   color: #38b2aa;
   line-height: 1;
-
 }
 
 .issue-box h3 a {
@@ -483,7 +481,6 @@ body {
   color: #38b2aa;
   text-transform: capitalize;
   font-size: 16px;
-
 }
 
 .issue-box p {
@@ -667,6 +664,34 @@ body {
   margin-top: 60px;
 }
 
+.references {
+  margin: auto;
+  padding-top: 8px;
+  width: 75%;
+}
+.references h5 {
+  padding: 2px;
+  margin: 0px;
+}
+.ref-icon {
+  display: inline-block;
+  padding: 10px;
+  width: 10%;
+  height: 10%;
+  vertical-align: middle;
+}
+.ref-content {
+  display: inline-block;
+  padding: 5px;
+  width: 60%;
+  vertical-align: middle;
+  color: white;
+  font-size: 10px;
+}
+.ref-content p a {
+  color: #1baca2;
+}
+
 @media (max-width: 880px) {
   .footer-distributed {
     font: bold 14px sans-serif;
@@ -683,5 +708,20 @@ body {
 
   .footer-distributed .footer-center i {
     margin-left: 0;
+  }
+  .references {
+    width: 100%;
+    text-align: center;
+  }
+  .ref-content {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+  }
+  .ref-icon {
+    display: block;
+    width: 100%;
+    margin: auto;
   }
 }
