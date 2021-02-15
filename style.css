@@ -243,7 +243,7 @@ body {
     position: absolute;
     display: block;
     width: 100%;
-    background-color: blueviolet;
+    background-color: #3CBFA6;
     height: 0px;
     transition: all 0.3s ease-in;
     overflow-y: hidden;
@@ -719,7 +719,7 @@ body {
   width: 84%;
   vertical-align: middle;
   color: white;
-  font-size: 10px;
+  font-size: 11px;
 }
 .ref-content p a {
   color: #1baca2;
