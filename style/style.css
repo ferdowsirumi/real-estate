@@ -601,13 +601,6 @@ body {
   }
 }
 
-@import url(
-  https://fonts.googleapis.com/css?family=Open+Sans:400,
-  500,
-  300,
-  700
-);
-
 .footer {
   width: 70%;
   margin: auto;
