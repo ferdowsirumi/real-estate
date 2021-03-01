@@ -3,18 +3,19 @@
 }
 
 body {
-  margin: 0px;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
   font-family: "Cabin", "sans-serif", "Verdana";
+  width: 964px;
+  margin: auto;
 }
 
 /* begin header*/
 .container {
   border-radius: 5px;
   background-image: url("img/undraw_Country_side_k696.svg");
-  background-color: rgb(147, 241, 235);
+  background-color: #C93B2B;
   padding: 10px;
   padding-bottom: 40px;
   width: 100%;
@@ -33,7 +34,7 @@ body {
   right: 0;
   height: 100%;
   width: 100%;
-  background-color: #38b2aa;
+  background-color: #C93B2B;
   opacity: 0.4;
   z-index: -10;
 }
@@ -119,10 +120,11 @@ body {
   content: "";
   display: table;
   clear: both;
-  width: 70%;
+  width: 90%;
   margin: auto;
   margin-top: 15px;
   /* margin-bottom: 40px; */
+
 }
 
 @media screen and (max-width: 900px) {
@@ -758,4 +760,299 @@ body {
     width: 100%;
     margin: auto;
   } */
+}
+
+/* popup stuff */
+.popup-modal {
+  display: none;
+  position: fixed;
+  z-index: 500;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.popup-content {
+  background-color: #fefefe;
+  box-shadow: 0px 1px 38px 0px rgba(0, 0, 0, 0.13);
+  overflow: auto;
+  border: 1px solid #888;
+  width: 80vw;
+  height: 80vh;
+  margin: 60px auto;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.close:hover, .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.popup-row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin: 30px 0px;
+}
+
+.popup-column {
+  -ms-flex: 48%;
+  flex: 48%;
+  max-width: 48%;
+  padding: 0 8px;
+}
+
+.popup1-column {
+  -ms-flex: 33.3%;
+  flex: 33.3%;
+  max-width: 33.3%;
+  padding: 0 4px;
+}
+
+.popup1-column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.popup-column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.popup-text h4 {
+  color: #2d3a4b;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 5px 0px;
+}
+
+.box {
+  float: right;
+  border: 1px solid #bb0000;
+  padding: 8px;
+  font-size: 15px;
+  font-family: 'Montserrat';
+  background: #bb0000;
+  color: white;
+  text-align: center;
+}
+
+.price {
+  padding: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  z-index: 9;
+  display: inline-block;
+  width: 100%;
+  color: #2d3a4b;
+}
+
+.popup-para {
+  font-weight: 400;
+  /* padding-top:0px; */
+  font-size: 14px;
+  color: #6f6f6f;
+  line-height: 24px;
+  text-rendering: optimizeLegibility;
+  font-family: 'Playfair Display';
+}
+
+.popup-header h6 {
+  font-weight: normal;
+  font-size: 14px;
+  color: #2d3a4b;
+  margin: 0px;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-family: 'Montserrat';
+}
+
+.iconn {
+  font-size: 15px;
+  padding: 10px 0px;
+  color: gray;
+}
+
+select {
+  border: 1px solid #bb0000;
+  width: 150px;
+  height: 36px;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+@media screen and (max-width: 900px) {
+  .popup-column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+      text-align: center;
+  }
+  .box {
+      display: none;
+  }
+  .popup-text h4 {
+      padding-top: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .popup-column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+  }
+}
+
+.add-button {
+  text-align: center;
+  border: none;
+  display: inline-block;
+  color: white;
+  padding: 8px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  background: #bb0000;
+  font-family: 'Poppins';
+  font-weight: bold;
+  border-radius: 2px;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  min-width: 180px;
+  position: relative;
+  z-index: 1;
+  margin: 8px 10px;
+}
+
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #bb0000;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: #bb0000;
+  color: white;
+}
+
+.dot {
+  cursor: pointer;
+  width: 18%;
+  height: auto;
+  margin: 2px;
+  display: inline-block;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (max-width: 900px) {
+  .prev, .next, .text {
+      font-size: 14px
+  }
+  .prev {
+      left: 0;
+      border-radius: 3px 0 0 3px;
+      position: absolute;
+      top: 50%;
+  }
+  .footer-open-text p {
+      width: 100%;
+      text-align: center;
+  }
+}
+
+.openBtn {
+  background: #f1f1f1;
+  border: none;
+  padding: 10px 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.openBtn:hover {
+  background: #bbb;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.overlay-content {
+  position: relative;
+  top: 46%;
+  width: 80%;
+  text-align: center;
+  margin-top: 30px;
+  margin: auto;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 50px;
+  cursor: pointer;
+  color: white;
+}
+
+.overlay .closebtn:hover {
+  color: #ccc;
+}
+
+.overlay input[type=text] {
+  padding: 15px;
+  font-size: 17px;
+  border: none;
+  float: left;
+  width: 80%;
+  background: white;
+}
+
+.overlay button {
+  float: left;
+  width: 20%;
+  padding: 15px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
 }
