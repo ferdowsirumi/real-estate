@@ -1,13 +1,13 @@
-function openNav() {
-    document.getElementById("mySidenav").classList.add("sideNavOpen");
+// function openNav() {
+//     document.getElementById("mySidenav").classList.add("sideNavOpen");
   
-    // document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-  }
-  function closeNav() {
-    document.getElementById("mySidenav").classList.remove("sideNavOpen");
+//     // document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+//   }
+//   function closeNav() {
+//     document.getElementById("mySidenav").classList.remove("sideNavOpen");
   
-    //  document.body.style.backgroundColor = "white";
-  }
+//     //  document.body.style.backgroundColor = "white";
+//   }
   
   
   var modal = document.getElementById("myModal");
@@ -15,20 +15,6 @@ function openNav() {
   var btn = document.getElementById("myBtn");
   
   var span = document.getElementsByClassName("close")[0];
-  
-  btn.onclick = function () {
-    modal.style.display = "block";
-  }
-  
-  span.onclick = function () {
-    modal.style.display = "none";
-  }
-  
-  window.onclick = function (event) {
-    if (event.target == modal) {
-      modal.style.display = "none";
-    }
-  }
   
   
   var slideIndex = 1;
