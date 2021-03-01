@@ -14,10 +14,10 @@ body {
 /* begin header*/
 .container {
   border-radius: 5px;
-  background-image: url("img/undraw_Country_side_k696.svg");
+  /* background-image: url("img/undraw_Country_side_k696.svg"); */
   background-color: #C93B2B;
   padding: 10px;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
   width: 100%;
   height: auto;
   position: relative;
@@ -548,7 +548,7 @@ body {
 }
 
 .footer {
-  width: 70%;
+  width: 100%;
   margin: auto;
   height: auto;
 }
@@ -765,18 +765,18 @@ body {
 }
 
 .circle {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   display: inline-block;
   margin: 5px;
 }
 .circle:hover
 {
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
-  transition-duration: 0.8ms;
+  transition-duration: .8s;
 }
 
 .red {
@@ -1091,24 +1091,12 @@ select {
 
 /* Image -map */
 .canada-map-image {
-  /* min-width: 80%;
-  max-width: 100%;
-  min-height: 90%;
-  margin-bottom: 10px;
-  border: 0;*/
   text-align: center;
-
   vertical-align: middle; 
-  width: 700;
+  max-width: 100%;
   height: auto;
   margin:auto;
 }
- /* area{
-  outline: solid red 2px;;
-} */
-map area{
-  outline: solid red 2px;;
-}
 map:hover area:hover{
-  outline: solid #305E8B 2px;;
+  outline: solid rgb(85, 161, 236) 2px;
 }
