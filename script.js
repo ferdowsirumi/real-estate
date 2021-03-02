@@ -1,14 +1,4 @@
-// function openNav() {
-//     document.getElementById("mySidenav").classList.add("sideNavOpen");
-
-//     // document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-//   }
-//   function closeNav() {
-//     document.getElementById("mySidenav").classList.remove("sideNavOpen");
-
-//     //  document.body.style.backgroundColor = "white";
-//   }
-
+/* Hazera Ferdowsi : ID: 301168815 */
 
 var modal = document.getElementById("myModal");
 
