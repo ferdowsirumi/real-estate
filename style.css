@@ -327,6 +327,10 @@ body {
   border-radius: 8px;
   text-align: center;
 }
+ .feature{
+  box-shadow:none;
+  background-color: whitesmoke;
+}
 
 .main-services-image {
   min-width: 120px;
@@ -364,6 +368,7 @@ body {
   margin-bottom: 15px;
   margin: 0 0 10px;
 }
+
 
 .anim {
   transition: 0.5s;
