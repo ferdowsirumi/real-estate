@@ -836,4 +836,16 @@ table.nobackground tr {background-color: white;}
   margin: 0px 10px 10px 0px;
   border-radius: 10px;
   font-size: 14px;
+  margin-left: 10px;
+
 }
+
+#feat-list > label{
+  border:1px solid rgb(67, 58, 58);
+  padding: 8px;
+  display: inline-block;
+  margin: 0px 10px 10px 12px;
+  border-radius: 8px;
+  font-size: 11px;
+}
+
