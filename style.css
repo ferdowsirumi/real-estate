@@ -1148,7 +1148,10 @@ ul li:before {
   width: 100%;
 }
 .people-container {
-  background: whitesmoke;
+  background: white;
+  box-shadow: 0 3px 11px 0 rgba(0, 0, 0, 0.15);
+
+
 }
 
 .people-column {
@@ -1286,5 +1289,90 @@ ul li:before {
 
 /* new header */
 
+.mission {
+  color:#999999;
+  font-size:16px;
+  font-family: "Cabin", sans-serif;
+  margin-bottom:20px;
+}
+.mission-header{
+  display: block;
+  margin-top: 20px;
+  font-size: 24px;
+  font-family: "Verdana";
+  font-weight: bold;
+}
+.row2 {
+  content: "";
+  display: table;
+  clear: both;
+  width: 74%;
+  margin: auto;
+  margin-top: 15px;
+}
+.personal-info{
+  color:#222222;
+  font-family: "Roboto",sans-serif;
+  font-weight: bold;
+  font-size:16px;
+}
 
+.white-section {
+  float: left;
+  width: 48%;
+  height: auto;
+}
 
+.white-section h3 {
+  padding-bottom: 20px;
+    text-align: start;
+    font-weight: bold;
+    font-size: 26px;
+    color: #292929;
+
+}
+  
+
+.white-section p {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #7c8595;
+  margin: 0px;
+  margin-bottom: 15px;
+  font-family: "Open Sans";
+}
+
+.white-section-image {
+  width: 90%;
+  height:230px;
+  vertical-align: middle;
+}
+
+.white-section i {
+  font-size: 25px;
+  padding: 7px 0px 7px 0px;
+}
+
+.col-left {
+  margin-left: 15px;
+}
+
+.about-text{
+  font-size:18px;
+}
+@media screen and (max-width: 900px) {
+  .white-section-image {
+    width: 90%;
+    display: block;
+    margin: auto;
+  }
+  .white-section {
+    width: 100%;
+    display: block;
+    margin: 0px auto;
+  }
+  .col-left {
+    margin: 0px;
+  }
+}
