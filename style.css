@@ -16,7 +16,7 @@ body {
 .container {
   border-radius: 5px;
   /* background-image: url("img/undraw_Country_side_k696.svg"); */
-  background-color: #C93B2B;
+  background-color: #DA291B;
   padding: 10px;
   padding-bottom: 10px;
   width: 100%;
@@ -1034,7 +1034,7 @@ a {
 ul {
   list-style: none;
   counter-reset: item;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   max-width: 600px;
   background-color:#baced6;
 }
@@ -1080,7 +1080,7 @@ ul li:before {
 
 }
 .inner-list{
-margin-left:-10px;margin-top:8px;
+margin-left:-10px;margin-top:16px;
 }
 .inner-list a{
   color:white;
@@ -1196,3 +1196,57 @@ bottom: 20px;
       position: relative;
   }
 }
+
+/* new footer */
+.footer-row {
+  background: black;
+}
+
+.footer-icons {
+  padding-top: 20px;
+}
+
+.footer-icons i {
+  font-size: 18px;
+  text-align: center;
+  border-radius: 50px;
+  background: #1F2122;
+  width: 40px;
+  padding-top: 12px;
+  height: 40px;
+  vertical-align: middle;
+  display: inline-block;
+  margin: 5px 10px 5px 0px;
+}
+
+.footer-icons i:hover {
+  background: linear-gradient(to right, #ED6B71, #ED6B71, #F6BF7D);
+}
+
+.footer-header {
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+
+.footer-para p {
+  color: white;
+  font-size: 14px;
+  font-family: "Verdana";
+
+}
+
+.footer-size {
+  font-size: 14px;
+  font-weight: 700px;
+  display:inline-block;
+  padding-top:4px;
+  font-family: "Verdana";
+
+}
+
+/* new header */
+
+
+
