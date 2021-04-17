@@ -1287,7 +1287,11 @@ ul li:before {
   display: block;
 
 }
+.footer-para{
 
+  box-shadow: none !important;
+
+}
 .footer-size {
   font-size: 14px;
   font-weight: 700px;
