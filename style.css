@@ -247,14 +247,14 @@ body {
 .main-services-image {
   min-width: 160px;
   max-width: 220px;
+
   min-height: auto;
+  max-height: 160px;
   margin-top: 25px;
   margin-bottom: 15px;
   /* border: 2px solid slategrey; */
   vertical-align: middle;
 }
-
-
 
 .main-services h3 {
   font-size: 16px;
