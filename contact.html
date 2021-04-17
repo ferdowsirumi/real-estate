@@ -10,8 +10,7 @@
     <link rel="stylesheet" href="style.css">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/3528d2a4ca.js" crossorigin="anonymous"></script>
@@ -19,8 +18,8 @@
 </head>
 
 <body>
-   
-  <!-- End header -->
+
+    <!-- End header -->
     <!-- begin header -->
     <div class="container">
         <div class="row">
@@ -57,73 +56,94 @@
             <span class="shtext">Contact us</span>
             <span class="seperator"></span>
         </div>
-        <div class="row">
-            <div class="contact-column">
-                <input type="text" placeholder="First name">
-                <input type="text" placeholder="Last name">
-                <input type="text" placeholder="Email">
-                <input type="text" placeholder="Phone">
 
-                <select class="option-field1" required>
-                    <option value="apartment">Type of property</option>
-                    <option value="apartment">Apartment</option>
-                    <option value="townhouse">Townhouse</option>
-                    <option value="twostorey">Two Storey</option>
-                    <option value="banglow">Bangalow</option>
-                </select>
-            </div>
+        <form method="POST" action="mailto:ferdowsirumi@gmail.com?subject=Query for Property" onsubmit="location.href='thanks.html';" enctype="text/plain" name="formEmail">
 
-            <div class="contact-column">
-                <select class="option-field1" required>
-                    <option value="bedroom">Number of bedrooms</option>
-                    <option value="one">One</option>
-                    <option value="two">Two</option>
-                    <option value="three">Three</option>
-                    <option value="four">Four</option>
-                </select>
+            <div class="row">
 
-                <select class="option-field1" required>
-                    <option value="bathroom">Number of bathrooms</option>
-                    <option value="one">One</option>
-                    <option value="two">Two</option>
-                    <option value="three">Three</option>
-                    <option value="four">Four</option>
-                </select>
+                <div class="contact-column">
+                    <input type="text" placeholder="First name" id="firstName" required>
+                    <input type="text" placeholder="Last name" id="lastName" required>
+                    <input type="text" placeholder="Email" id="email" required>
+                    <input type="text" placeholder="Phone" id="phone">
 
-                <select class="option-field1" required>
-                    <option value="price">Price-range</option>
-                    <option value="range1-5">100000 - 500000 CAD</option>
-                    <option value="range-1">500000 - 1000000 CAD</option>
-                    <option value="range1-3">1000000 - 30000000 CAD</option>
-                    <option value="morethen-6">more then 60000000 CAD</option>
-                </select>
-                <label for="name" class="lebel">Message</label>
-                <textarea>
+                    <select id= "propertyType" class="option-field1" required>
+                        <option value="">Type of property</option>
+                        <option value="apartment" id="apt">Apartment</option>
+                        <option value="townhouse" id="th">Townhouse</option>
+                        <option value="twostorey" id="ts">Two Storey</option>
+                        <option value="banglow" id="bw">Bangalow</option>
+                    </select>
+                </div>
+
+                <div class="contact-column">
+                    <select id="bedroom" class="option-field1" >
+                        <option value="">Number of bedrooms</option>
+                        <option value="one">One</option>
+                        <option value="two">Two</option>
+                        <option value="three">Three</option>
+                        <option value="four">Four</option>
+                    </select>
+
+                    <select id="bathroom" class="option-field1" >
+                        <option value="">Number of bathrooms</option>
+                        <option value="one">One</option>
+                        <option value="two">Two</option>
+                        <option value="three">Three</option>
+                        <option value="four">Four</option>
+                    </select>
+
+                    <select id= "pricce"class="option-field1" >
+                        <option value="">Price-range</option>
+                        <option value="range1-5">100000 - 500000 CAD</option>
+                        <option value="range-1">500000 - 1000000 CAD</option>
+                        <option value="range1-3">1000000 - 30000000 CAD</option>
+                        <option value="morethen-6">more then 60000000 CAD</option>
+                    </select>
+                    <label for="name" id="message" class="lebel">Message</label>
+                    <textarea>
                 </textarea>
+                </div>
             </div>
-        </div>
-        <div style="text-align:center;">
-            <a href="#" class="button">Send Now</a>
-            <a href="#" class="button">Clear</a>
-        </div>
+            <div style="text-align:center;">
+                <!-- <a href="#" class="button" type="submit">Send Now</a> -->
+                <input value="Send Now" class="button" id="sendNow" onclick="return;" type="submit">
+
+                <input value="Clear" class="button" id="clearForm" onclick="return" type="reset">
+            </div>
+        </form>
     </section>
     <!-- End section - contact form -->
     <!-- begin section map -->
     <section id="availability" class="section-gray" style="background-color:whitesmoke;">
+        <div style="text-align: center;line-height: 20px;">
+            <span class="shtext">Service Area</span>
+            <span class="seperator"></span>
+        </div>
         <div class="row">
+            <h4>I serve in many locations including:</h4>
+            <ul style="background-color:transparent">
+                <li>Toronto</li>
+                <li>Scarborough</li>
+
+                <li>Ajax</li>
+                <li>Pickering</li>
+                <li>North York</li>
+
+            </ul>
 
             <div class="main-services" style="width: 100%; text-align: left;">
-                <img src="img/map-ca1.jpeg" style="width: 100%;">
+                <img src="img/map.png" style="width: 100%;">
 
             </div>
         </div>
     </section>
-        <!-- begin section map -->
+    <!-- begin section map -->
     <!-- begin footer-section -->
     <div class="row-container footer-row">
         <div class="row" style="margin-top:0px;">
             <div class="people-column">
-                <img src="img/house.png" style="width:150px;height:100px;">
+                <img src="img/house.png" style="width:120px;height:100px;">
                 <div class="footer-icons">
                     <i style="color:white;" class="fab fa-facebook-f"></i>
                     <i style="color:white;" class="fab fa-twitter"></i>
@@ -156,4 +176,5 @@
     <!-- end section - Foooter -->
     <script src="contact.js"></script>
 </body>
+
 </html>
