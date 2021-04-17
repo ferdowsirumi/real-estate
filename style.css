@@ -1099,3 +1099,100 @@ margin-left:-10px;margin-top:8px;
     display: block;
   }
 }
+
+
+
+
+/* what people say */
+.row-container {
+  background-image: linear-gradient(to right, #ED6B71, #ED6B71, #EFC282, #EFC282);
+  width: 100%;
+}
+.people-container {
+  background: whitesmoke;
+}
+
+.people-column {
+  width: 30.33%;
+  display: inline-block;
+  margin: auto;
+  margin: 2px 10px;
+  padding: 20px;
+  min-height: 200px;
+  vertical-align: top;
+  box-shadow: 0 3px 11px 0 rgba(0, 0, 0, .15);
+  position: relative;
+  
+}
+
+.people-column p {
+  font-size: 16px;
+  font-family: 'Nunito';
+  color: #9A9B9C;
+}
+
+.people-image {
+  border-radius: 50px;
+  margin-top: -65px;
+}
+
+.people-header {
+  padding-bottom: 80px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.people-name {
+  color: #414244;
+  font-weight: bold;
+  font-size: 16px;
+  display: block;
+}
+.row1{
+  display: table;
+  content: "";
+  clear: both;
+  width: 80%;
+  margin: auto;
+  padding: 10% 0;
+}
+.people-job {
+  color: #ED6B71;
+  font-size: 13px;
+  display: block;
+  padding-top: 8px;
+}
+
+.people-row {
+  padding: 3% 0;
+}
+
+.quote {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.quite1{
+  position: absolute;
+  top: 20px;
+bottom: 20px;
+}
+
+.quote i {
+  color: #D9DADA;
+  font-size: 30px;
+}
+.fa-quote-right:before {
+  content: "\f10e";
+}
+
+@media only screen and (max-width:1024px) {
+  .people-column {
+      display: block;
+      width: 100%;
+      text-align: center;
+      margin-top: 60px;
+      position: relative;
+  }
+}
