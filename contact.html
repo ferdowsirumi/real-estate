@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Your Real Agent</title>
     <link rel="stylesheet" href="style.css">
-    
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
         rel="stylesheet">
@@ -19,7 +19,6 @@
 
 <body>
 
-    <!-- End header -->
     <!-- begin header -->
     <div class="container">
         <div class="row">
@@ -38,12 +37,13 @@
                 </div>
                 <input type="checkbox" id="nav-check">
                 <div class="nav-links" id="navbar">
-                    <a href="listing.html">Listings</a>
-                    <a href="listingDetails1.html">List Details</a>
-                    <a href="contact.html">Contact Me</a>
-                    <a href="sitemap.html">Listings</a>
                     <a href="index.html">Agent Home</a>
-
+                    <a href="listing.html">Listing</a>
+                    <a href="listingDetails1.html">1<sup>st</sup> Listing</a>
+                    <a href="listingDetails2.html">2<sup>nd</sup> Listing</a>
+                    <a href="listingDetails3.html">3<sup>rd</sup> Listing</a>
+                    <a href="contact.html">Contact Me</a>
+                    <a href="sitemap.html">Site Map</a>
                     <a href="../index.html" class="round" target="_blank">My Profile</a>
                 </div>
             </div>
@@ -57,7 +57,8 @@
             <span class="seperator"></span>
         </div>
 
-        <form method="POST" action="mailto:ferdowsirumi@gmail.com?subject=Query for Property" onsubmit="location.href='thanks.html';" enctype="text/plain" id="formEmail">
+        <form method="POST" action="mailto:ferdowsirumi@gmail.com?subject=Query for Property" onsubmit="location.href='thanks.html';"
+            enctype="text/plain" id="formEmail">
 
             <div class="row">
 
@@ -67,7 +68,7 @@
                     <input type="text" placeholder="Email" id="email" required>
                     <input type="text" placeholder="Phone" id="phone">
 
-                    <select id= "propertyType" class="option-field1" required>
+                    <select id="propertyType" class="option-field1" required>
                         <option value="">Type of property</option>
                         <option value="apartment" id="apt">Apartment</option>
                         <option value="townhouse" id="th">Townhouse</option>
@@ -77,7 +78,7 @@
                 </div>
 
                 <div class="contact-column">
-                    <select id="bedroom" class="option-field1" >
+                    <select id="bedroom" class="option-field1">
                         <option value="">Number of bedrooms</option>
                         <option value="one">One</option>
                         <option value="two">Two</option>
@@ -85,7 +86,7 @@
                         <option value="four">Four</option>
                     </select>
 
-                    <select id="bathroom" class="option-field1" >
+                    <select id="bathroom" class="option-field1">
                         <option value="">Number of bathrooms</option>
                         <option value="one">One</option>
                         <option value="two">Two</option>
@@ -93,7 +94,7 @@
                         <option value="four">Four</option>
                     </select>
 
-                    <select id= "pricce"class="option-field1" >
+                    <select id="pricce" class="option-field1">
                         <option value="">Price-range</option>
                         <option value="range1-5">100000 - 500000 CAD</option>
                         <option value="range-1">500000 - 1000000 CAD</option>
@@ -139,11 +140,12 @@
         </div>
     </section>
     <!-- begin section map -->
+
     <!-- begin footer-section -->
     <div class="row-container footer-row">
         <div class="row" style="margin-top:0px;">
             <div class="people-column">
-                <img src="img/house.png" style="width:120px;height:100px;">
+                <img src="img/house.png" style="width:150px;height:100px;">
                 <div class="footer-icons">
                     <i style="color:white;" class="fab fa-facebook-f"></i>
                     <i style="color:white;" class="fab fa-twitter"></i>
@@ -152,15 +154,22 @@
                 </div>
             </div>
             <div class="people-column footer-para">
-                <div class="footer-header" style="margin-bottom:-16px;">My Links</div>
+                <div class="footer-header" style="margin-bottom:-16px;"></div>
                 <p> <br>
-                    <a href=""><span class="footer-size" id="footerSize">Home</span></a>
+                    <a href="index.html"><span class="footer-size">Home</span></a>
                     <br>
-                    <a href=""><span class="footer-size" id="footerSize">Contact Us</span></a>
+                    <a href="listing.html"><span class="footer-size" id="footerSize">Listing</span></a>
                     <br>
-                    <a href=""><span class="footer-size" id="footerSize">Mission</span></a>
+                    <a href="listingDetails1.html"><span class="footer-size" id="footerSize">1<sup>st</sup> Property </span></a>
                     <br>
-                    <a href=""><span class="footer-size" id="footerSize">Services</span></a>
+                    <a href="listingDetails2.html"><span class="footer-size">2<sup>2nd</sup> Property </span></a>
+                    <br>
+                    <a href="listingDetails3.html"><span class="footer-size">3<sup>rd</sup> Property </span></a>
+                    <br>
+                    <a href="contact.html"><span class="footer-size">Contact</span></a>
+                    <br>
+                    <a href="sitemap.html"><span class="footer-size">Sitemap</span></a>
+
                 </p>
             </div>
             <div class="people-column footer-para" style="margin-top:5px;">
