@@ -57,7 +57,7 @@
             <span class="seperator"></span>
         </div>
 
-        <form method="POST" action="mailto:ferdowsirumi@gmail.com?subject=Query for Property" onsubmit="location.href='thanks.html';" enctype="text/plain" name="formEmail">
+        <form method="POST" action="mailto:ferdowsirumi@gmail.com?subject=Query for Property" onsubmit="location.href='thanks.html';" enctype="text/plain" id="formEmail">
 
             <div class="row">
 
@@ -109,7 +109,7 @@
                 <!-- <a href="#" class="button" type="submit">Send Now</a> -->
                 <input value="Send Now" class="button" id="sendNow" onclick="return;" type="submit">
 
-                <input value="Clear" class="button" id="clearForm" onclick="return" type="reset">
+                <input value="Clear" class="button" id="clearForm" onclick="resetForm()" type="submit">
             </div>
         </form>
     </section>
