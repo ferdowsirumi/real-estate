@@ -1282,8 +1282,9 @@ ul li:before {
 
 .footer-para p {
   color: white;
-  font-size: 14px;
-  font-family: "Verdana";
+  font-size: 12px;
+  margin:25px 0 15px 0;
+  display: block;
 
 }
 
